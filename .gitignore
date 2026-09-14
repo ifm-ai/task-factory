@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+logs/
+jobs/
+trials/
+.claude/
+.pytest_cache/
+
+# Generated task output. The examples/ tree is the only task content tracked here.
+out/
+ladders/
+
+# Build-time fixtures: a git repo inside a task environment is built by the
+# task's own build script, never committed (git would store an empty gitlink).
+examples/*/environment/repo/
+examples/*/*/environment/repo/

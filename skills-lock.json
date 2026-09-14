@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "harbor-task-creator": {
+      "source": "harbor-framework/skills",
+      "sourceType": "github",
+      "skillPath": "skills/harbor-task-creator/SKILL.md"
+    }
+  }
+}

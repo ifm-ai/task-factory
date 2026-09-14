@@ -1,0 +1,19 @@
+version = "1.0"
+
+[metadata]
+author_name = "task-factory"
+difficulty = "easy"
+category = "math"
+tags = ["math", "number-theory", "divisibility", "modular-arithmetic", "finite-classification"]
+
+[verifier]
+timeout_sec = 120.0
+
+[agent]
+timeout_sec = 600.0
+
+[environment]
+build_timeout_sec = 600.0
+cpus = 1
+memory = "4G"
+storage = "10G"
